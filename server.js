@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc'); // Remplacez par votre clé secrète Stripe
+const stripe = require('stripe')('sk_test_51QJgmPRuiVW8XIgr2BjoMzmFqDDEQjPayLiaHFPEflYCfMAZ6G2gB8Q1Td5a7Uu2Z2QPfm2Yc3hq7daWGdBe6cPi00ZgG4MY70'); // Remplacez par votre clé secrète Stripe
 const cors = require('cors');
 
 
