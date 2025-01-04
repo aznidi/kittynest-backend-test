@@ -6,10 +6,6 @@ const cors = require('cors');
 
 const app = express();
 app.use(bodyParser.json());
-app.use(cors({
-  origin: 'https://kittynest.vercel.app/', // Origine de votre application React
-  methods: ['GET', 'POST'],       // Méthodes HTTP autorisées
-}));
 
 app.post('/create-checkout-session', async (req, res) => {
   try {
